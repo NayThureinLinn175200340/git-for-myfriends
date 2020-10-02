@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://cdn.stocksnap.io/img-thumbs/960w/technology-abstract_KLV2XQTIAO.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 20px;
+    font-family: 'Lobster', cursive;
+
+}
+.title{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Teko', sans-serif;
+    
+}
+.calc{
+    width: 400px;
+    margin: 20px auto;
+}
+.display{
+    text-align: right;
+    color: white;
+    font-size: 40px;
+    padding: 10px;
+}
+.keypad-table tr:first-child .key{
+    background-color: red;
+    color: white;
+    font-weight: 700;
+}
+.keypad-table tr:first-child .key:active{
+    background-color: rgb(207, 87, 87);
+}
+.keypad-table tr td:last-child .key{
+    background-color: rgb(255, 123, 0);
+    color: white;
+    font-weight: 700;
+}
+.keypad-table tr td:last-child .key:active{
+    background-color: rgb(204, 127, 56);
+}
+.key{
+    width: 90px;
+    height: 90px;
+    color: black;
+    background-color:  white;
+    border-radius: 90px;
+    border: 1px solid gray;
+    margin: 5px;
+    cursor: pointer;
+    user-select: none;
+    line-height: 85px;
+    text-align: center;
+    font-weight: 900;
+}
+.key:active{
+    background-color:  #33333360;
+}
